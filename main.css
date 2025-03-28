@@ -21,9 +21,24 @@ li {
 .light-theme {
     --bg: var(--green);
     --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
 }
 
 .dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background: var(--btnBg);
 }
